@@ -1,0 +1,368 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+@import url('http://fonts.cdnfonts.com/css/gotham-bold');
+
+@import url('http://fonts.cdnfonts.com/css/myriad-pro');
+
+@import url("https://use.typekit.net/rwb6vdk.css");
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --blue-one: #075BB5;
+    --blue-two: #002C85;
+    --btn-acess: #063C7A;
+    --text-white: white;
+    --links-color: #EBF4FA;
+    --bg-white: #F8F8F8;
+    --btn-green: #01662C;
+    --titles-color: #464646;
+    --subtitles-color: #6d6d6d;
+    --dates-color: #7E7E7E;
+    --open-sans: 'Open Sans', sans-serif;
+    --gotham: 'Gotham Bold', sans-serif;
+    --muli-regular: muli, sans-serif;
+    --roboto: 'Roboto', sans-serif;
+    --myriad: 'Myriad Pro', sans-serif;
+}
+.container {
+    width: 75%;
+    margin: 0 auto;
+}
+.container_nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav_options{
+   background: var(--blue-one);
+   width: 100vw;
+   height: 7.8vh;
+   display: flex;
+   justify-content: space-between;
+}
+
+.acessibility button {
+    background: var(--btn-acess);
+    width: 35px;
+    height: 70%;
+    border: none;
+    border-radius: 10px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    color: var(--links-color);
+    font-family: var(--muli-regular);
+}
+
+.acessibility button img {
+    max-width: 70%;
+}
+
+
+.acessibility {
+    height: 100%;
+    width: 25%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.links{
+    width: 35%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.links a {
+    text-decoration: none;
+    font-weight: 500;
+    font-family: var(--muli-regular);
+    color: var(--links-color);
+    font-size: 0.8em;
+    white-space: nowrap;
+}
+
+.access{
+    height: 70%;
+    width: 45%;
+    border-radius: 10px; 
+    background: var(--btn-acess);
+    font-family: var(--muli-regular);
+    color: var(--text-white);
+    font-size: 0.8em;
+    display: flex;
+    font-weight: 600;
+    align-items: center;
+    justify-content: center;
+}
+
+.social {
+    width: 100vw;
+    height: 15.6vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container_social {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%
+}
+
+.logo-brasao {
+    width: 28%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.logo-brasao h1 {
+    margin-left: 5%;
+    color: #042E8B;
+    font-size: 1em;
+    font-weight: 900;
+    font-family: var(--open-sans);
+}
+
+.big-text {
+    font-size: 1.58em;
+    font-weight: 900;
+    font-family: var(--open-sans);
+}
+
+.social_search{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+}
+
+.social_search span {
+    font-family: var(--myriad);
+    font-weight: thin;
+    font-size: 0.9em;
+    color: #585858;
+}
+
+.social_search img {
+    width: 24%;
+    height: 24%
+}
+
+.nav_sections {
+    background: var(--blue-two);
+    width: 100vw;
+    height: 7.8vh;
+}
+
+.links_sections {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.links_sections a {
+    text-decoration: none;
+    font-weight: 700;
+    font-family: var(--open-sans);
+    color: var(--links-color);
+    font-size: 0.99em;
+}
+
+.notices{
+    width: 100vw;
+}
+
+.container_notices {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+h2{
+    margin: 75px 0 75px 0;
+    font-family: var(--gotham);
+    font-size: 2em;
+    font-weight: 500;
+    color: var(--titles-color);
+    text-transform: capitalize;
+}
+
+.notice_cards {
+    display: flex;
+    justify-content: space-between;
+    max-width: 100%;
+    flex-wrap: wrap;
+}
+
+.card { 
+    width: 330px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+}
+
+.card img {
+    width: 330px;
+    height: 270px;
+    object-fit: cover;
+    border-radius: 20px
+}
+
+.card a {
+    margin-top: 18px;
+    text-decoration: none;
+    color: var(--subtitles-color);
+    font-size: 1.38em;
+    font-family: var(--roboto);
+    font-weight: 700;
+    text-align: left;
+}
+
+.card p {
+    font-family: var(--roboto);
+    color: var(--dates-color);
+    text-align: left;
+    font-size: 0.8em;
+    margin-top: 5px;
+}
+
+.container_notices button {
+    background: #0052A4;
+    width: 40%;
+    height: 40px;
+    border: none;   
+    font-family: var(--gotham);
+    font-size: 1.1em;
+    color: var(--text-white);
+    algin-self: center;
+    border-radius: 5px;
+    margin: 20px 0 20px 0
+}
+
+.container_services {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap
+}
+
+.services {
+    margin: 80px 0px 80px 0;
+    text-align: center;
+}
+
+.services button {
+    background: var(--btn-green);
+    /* padding: 20px; */
+    width: 235px;
+    height: 62px;
+    border: none; 
+    border-radius: 8px;  
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: left;
+    margin: 8px 0px 8px 0px;
+}
+
+.services button span {
+    font-family: var(--gotham);
+    font-size: 1.1em;
+    color: var(--text-white);
+    margin-right: 10px;
+    inline-size: 137px;
+}
+
+.services button img {
+    height: 35px;
+    margin-left: 10%;
+}
+
+.turism {
+    margin: 80px 0px 80px 0;
+    text-align: center;
+}
+
+.container_turism {
+    display: flex;
+    flexwrap: wrap;
+   
+    /* justify-container: space-between; */
+}
+
+.turism_card {
+    position: relative;
+    height: 35vh;
+    width: 32%;
+    background-image: url('../assests/alimentar.png');
+    background-size: cover;
+    border-radius: 40px;
+    margin: 0 auto;
+}
+
+.image_diff1 {
+    background-image: url('../assests/hospedar.png')
+}
+.image_diff2 {
+    background-image: url('../assests/turismo.png')
+}
+
+.turism_card button{    
+    width: 70%;
+    height: 30%;
+    top: 80%;
+    left: 15%;
+    position: absolute;
+    border: none;
+    /* background-color: #C86801; */
+    font-family: var(--gotham);
+    font-size: 1.1em;
+    color: var(--text-white);
+    border-radius: 16px;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.color_diff {
+    background-color: #C86801;
+}
+.color_diff1 {
+    background-color: var(--btn-green);
+}
+.color_diff2 {
+    background-color: #001568;
+}
+
+.galery {
+    text-align: center;
+    height: 500px
+}
+
+.container_galery img {
+    height: 45vh;
+    width: 32%;
+    border-radius: 25px;
+    object-fit: cover;
+}
+
+.container_galery{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
