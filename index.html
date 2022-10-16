@@ -29,9 +29,9 @@
                 </div>
                 <div class="links">
                     <a href="#">Ir ao menu</a>
-                    <a href="#">Ir ao conteúdo</a>
+                    <a href="#notices">Ir ao conteúdo</a>
                     <a href="#">Ir a busca</a>
-                    <a href="#">Ir ao rodapé</a>
+                    <a href="#footer">Ir ao rodapé</a>
                 </div>
             </div>
         </section>
@@ -39,16 +39,22 @@
             <div class="container container_social">
                 <div class="logo-brasao">
                     <img src="./assests/logo.png" alt="logo">
-                    <h1>Prefeitura Municipal de <span class="big-text">Águas da Prata</span> </h1>
+                    <h1>Prefeitura Municipal de <span class="big-text"> da Prata</span> </h1>
                 </div>
                 <div class="social_search">
                     <span>2 de janeiro de 2021</span>
-                    <div class="social-images">
-                        <img src="./assests/facebook-icon.png">
-                        <img src="./assests/instagram-icon.png">
+                    <div class="social_search_bar">
+                        <div class="social-images">
+                            <img src="./assests/facebook-icon.png">
+                            <img src="./assests/instagram-icon.png">
+                        </div>
+                        <div class="search_bar">
+                            <input type="search">
+                            <button>
+                                <img src="./assests/searchbar_icon.png" alt="">
+                            </button>
+                        </div>
                     </div>
-                    <div class="search_bar"></div>
-                    <input type="search">
                 </div>
             </div>
         </section>
@@ -70,7 +76,7 @@
         </section>
     </header>
     <main>
-        <section class="notices">
+        <section id="notices" class="notices">
             <div class="container container_notices">
                 <h2>Notícias</h2>
                 <div class="notice_cards">
@@ -113,35 +119,35 @@
             <div class="container container_services">
                 <button>
                     <img src="./assests/search_icon.png">
-                    <span >Portal da Transparência</span>
+                    <span>Portal da Transparência</span>
                 </button>
                 <button>
                     <img src="./assests/iptu.png">
-                    <span >2ª via IPTU</span>
+                    <span>2ª via IPTU</span>
                 </button>
                 <button>
                     <img src="./assests/pc.png">
-                    <span >Portal de Serviços</span>
+                    <span>Portal de Serviços</span>
                 </button>
                 <button>
                     <img src="./assests/concurso.png">
-                    <span >Concurso Públicos</span>
+                    <span>Concurso Públicos</span>
                 </button>
                 <button>
                     <img src="./assests/nota fiscal.png">
-                    <span >Nota fiscal eletrônica</span>
+                    <span>Nota fiscal eletrônica</span>
                 </button>
                 <button>
                     <img src="./assests/estrutura-empresa.png">
-                    <span >Empresas</span>
+                    <span>Empresas</span>
                 </button>
                 <button>
                     <img src="./assests/pessoa.png">
-                    <span >Serviços ao contribuinte</span>
+                    <span>Serviços ao contribuinte</span>
                 </button>
                 <button>
                     <img src="./assests/pessoas.png">
-                    <span >Serviços aos Servidores</span>
+                    <span>Serviços aos Servidores</span>
                 </button>
             </div>
         </section>
@@ -153,13 +159,13 @@
                         Onde comer?
                     </button>
                 </div>
-                <div class="separator"></div>
+
                 <div class="turism_card image_diff1">
                     <button class="color_diff1">
                         Onde se hospedar?
                     </button>
                 </div>
-                <div class="separator"></div>
+
                 <div class="turism_card image_diff2">
                     <button class="color_diff2">
                         Pontos Turísticos?
@@ -176,9 +182,139 @@
             </div>
 
         </section>
-        <section class="videos"></section>
+        <section class="videos">
+            <h2>Vídeos</h2>
+            <div class="container container_videos">
+                <div class="video-div">
+                    <video src="./assests/read.mp4" controls>Video by cottonbro:
+                        https://www.pexels.com/video/close-up-view-of-a-person-reading-a-book-2795307/</video>
+                    <p>Cidade recebe verbas para melhorar a
+                        rede pública de educação</p>
+                </div>
+                <div class="video-div">
+                    <video src="./assests/social.mp4" controls>Video by DMC Filmes:
+                        https://www.pexels.com/video/man-browsing-facebook-on-mobile-5201209/</video>
+                    <p>Baixe o app da cidade e fique
+                        por dentro das notícias</p>
+                </div>
+                <div class="video-div">
+                    <video src="./assests/roses.mp4" controls>Video by Visually Us:
+                        https://www.pexels.com/video/beautiful-red-roses-1494279/</video>
+                    <p>Prefeitura segue com limpeza
+                        das ruas da cidade</p>
+                </div>
+            </div>
+        </section>
+        <section class="info_images">
+            <div class="container container_info_imgs">
+                <img src="./assests/info-corona.png" alt="">
+                <img src="./assests/iptu 2021.png" alt="">
+                <img src="./assests/sic.png" alt="">
+            </div>
+        </section>
     </main>
-    <footer></footer>
+    <footer id="footer">
+        <section class="container_back">
+            <div class="container container_footer">
+                <div class="archives">
+                    <h3>Editais</h3>
+                    <div class="box-archive">
+                        <img src="./assests/archives_icon.png" alt="">
+                        <div class="icon_text">
+                            <a href="">Edital de Chamamento Público nº 09/2018 </a>
+                            <hr>
+                        </div>
+                    </div>
+                    <div class="box-archive">
+                        <img src="./assests/archives_icon.png" alt="">
+                        <div class="icon_text">
+                            <a href="">Edital de Chamamento Público nº 09/2018 </a>
+                            <hr>
+                        </div>
+                    </div>
+                    <div class="box-archive">
+                        <img src="./assests/archives_icon.png" alt="">
+                        <div class="icon_text">
+                            <a href="">Edital de Chamamento Público nº 09/2018 </a>
+                        </div>
+                    </div>
+                    <button class="see_all">Veja Todos</button>
+                </div>
+                <div class="archives">
+                    <h3>Licitações</h3>
+                    <div class="box-archive">
+                        <img src="./assests/archives_icon.png" alt="">
+                        <div class="icon_text">
+                            <a href="">Edital de Chamamento Público nº 09/2018 </a>
+                            <hr>
+                        </div>
+                    </div>
+                    <div class="box-archive">
+                        <img src="./assests/archives_icon.png" alt="">
+                        <div class="icon_text">
+                            <a href="">Edital de Chamamento Público nº 09/2018 </a>
+                            <hr>
+                        </div>
+                    </div>
+                    <div class="box-archive">
+                        <img src="./assests/archives_icon.png" alt="">
+                        <div class="icon_text">
+                            <a href="">Edital de Chamamento Público nº 09/2018 </a>
+                        </div>
+                    </div>
+                    <button class="see_all">Veja Todos</button>
+                </div>
+                <div class="archives">
+                    <h3>Chamamentos</h3>
+                    <div class="box-archive">
+                        <img src="./assests/archives_icon.png" alt="">
+                        <div class="icon_text">
+                            <a href="">Edital de Chamamento Público nº 09/2018 </a>
+                            <hr>
+                        </div>
+                    </div>
+                    <div class="box-archive">
+                        <img src="./assests/archives_icon.png" alt="">
+                        <div class="icon_text">
+                            <a href="">Edital de Chamamento Público nº 09/2018 </a>
+                            <hr>
+                        </div>
+                    </div>
+                    <div class="box-archive">
+                        <img src="./assests/archives_icon.png" alt="">
+                        <div class="icon_text">
+                            <a href="">Edital de Chamamento Público nº 09/2018 </a>
+                        </div>
+                    </div>
+                    <button class="see_all">Veja Todos</button>
+                </div>
+        </section>
+        <section class=" footer_links">
+            <div class="container container_footer_links">
+                <div class="logo_footer">
+                    <img src="./assests/brasao.jpg" alt="logo">
+                    <p>Prefeitura Municipal<span>Águas da Prata</span></p>
+                </div>
+                <div class="f_links">
+                    <div class="text_f_links">
+                        <span>Secretarias</span>
+                        <a href="">Admnistração</a>
+                        <a href="">Fazendas e Orçamentos</a>
+                        <a href="">Desenvolvimento Social</a>
+                        <a href="">Cidadania e Segurança</a>
+                    </div>
+                    <div class="text_f_links position">
+                        <a href="">Desenvolvimento Econômico</a>
+                        <a href="">Trabalho e Meio Ambiente</a>
+                        <a href="">Desenvolvimento Urbano</a>
+                    </div>
+                </div>
+                <span class="developed">
+                    Desenvolvido por <span class="by">webnets</span>
+                </span>
+            </div>
+        </section>
+    </footer>
 </body>
 
 </html>
